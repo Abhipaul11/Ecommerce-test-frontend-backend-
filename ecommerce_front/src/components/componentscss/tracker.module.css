@@ -1,0 +1,62 @@
+.main {
+    margin: 1rem 0px 3rem;
+}
+
+.main .inside {
+    border-radius: 5px;
+    max-width: 60rem;
+    margin: auto;
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    overflow: hidden;
+}
+
+.main .heading {
+    background-color: rgb(64, 64, 66);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    position: relative;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+
+}
+
+.container .trackerline {
+    position: absolute;
+    width: 100%;
+    margin: 0px 0px 0px;
+    top: 45%;
+    height: 3px;
+    background-color: skyblue;
+    z-index: -1;
+    left: 0;
+    transition: width 0.9s ease-in-out, background-color 0.8s ease;
+}
+
+.container .step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container .step p {
+    color: rgb(68, 67, 67);
+}
+
+.container .step .icon {
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid grey;
+}

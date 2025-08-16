@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    background-color: #f8f9fa;
+}
+
+.top p {
+    color: black;
+}
+
+.top span {
+    color: rgb(29, 101, 184);
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px 20px;
+}
+
+.middle button {
+    background-color: rgb(24, 128, 169);
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+}
+
+.middle p {
+    color: black;
+}
+
+.container .btngroup {
+    display: flex;
+    gap: 20px;
+    padding: 0px 0px 10px 20px;
+}
+
+.container .btngroup button {
+    padding: 6px 10px;
+    border: none;
+}
+
+.container .btngroup button:hover {
+    background-color: rgb(33, 4, 4);
+}
+
+.container .btngroup .cancel {
+    color: white;
+    background-color: rgb(185, 88, 19);
+}
+
+.container .btngroup .track {
+    color: white;
+    background-color: rgb(60, 134, 231);
+}
+
+.container .btngroup .view {
+    color: white;
+    background-color: rgb(13, 126, 37);
+}

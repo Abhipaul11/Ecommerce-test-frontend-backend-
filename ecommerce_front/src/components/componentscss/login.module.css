@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.form {
+    width: 100%;
+}
+
+.mainbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 25rem;
+    width: 90%;
+    padding: 20px;
+    margin-top: 2rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* background-color: rgba(255, 255, 255, 0.324) */
+}
+
+.inputgrp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.inputgrp p {
+    color: rgb(80, 79, 79);
+}
+
+input {
+    padding: 5px 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    width: 100%;
+    outline: none;
+}
+
+form span {
+    color: blue;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+
+form button {
+    background-color: rgb(61, 61, 241);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+form button:hover {
+    background-color: rgb(5, 5, 52);
+
+}
+
+.lastp {
+    font-family: "Roboto";
+    color: black;
+    text-align: center;
+}
+
+form .signup {
+    font-family: "Roboto";
+    color: red;
+    font-size: 17px;
+    cursor: pointer;
+}

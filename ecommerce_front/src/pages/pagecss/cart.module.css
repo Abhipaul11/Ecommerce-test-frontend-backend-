@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+.firstcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+
+/* checkout component css here */
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(232, 232, 232);
+    width: 25%;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 10px;
+    margin: 10px 20px;
+}
+
+.main h3 {
+    color: black;
+}
+
+.main .orderprice,
+.totalprice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main .orderprice p {
+    font-family: 'Roboto';
+    color: rgb(70, 68, 68);
+}
+
+.main .totalprice {
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+.main .totalprice h4 {
+    color: rgb(74, 73, 73);
+    font-family: "Roboto";
+}
+
+.main button {
+    background-color: rgb(66, 66, 66);
+    color: rgb(235, 235, 235);
+    padding: 14px;
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main button:hover {
+    background-color: rgb(13, 12, 12);
+}
+
+/* cart component css here */
+.cartbox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.cartbox .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.imageSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.imageSection img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    object-fit: cover;
+    border: 1px solid rgb(66, 65, 65);
+}
+
+.details h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    font-family: 'Roboto';
+}
+
+.details p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid grey;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.count span {
+    color: rgba(67, 67, 67, 1);
+}
+
+.deletebtn {
+    cursor: pointer;
+}
+
+.cartbox button {
+    border-radius: 5px;
+    font-size: 25px;
+    background: none;
+}
+
+.totalprice {
+    width: max-content;
+}
+
+.totalprice p {
+    color: black;
+}
+
+@media(max-width:768px) {
+    .firstcontainer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .main {
+        width: 80%;
+    }
+}

@@ -1,0 +1,22 @@
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.maincontainer .insidecontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+.maincontainer .insidecontainer img {
+    width: 80px;
+    height: 80px;
+}
+
+.maincontainer .insidecontainer p {
+    color: black;
+}

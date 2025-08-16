@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.card {
+    width: 28%;
+    height: 22rem;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    flex: 0 0 auto;
+    background-color: rgba(44, 64, 75, 1);
+
+}
+
+.card img {
+    height: 17rem;
+    width: 100%;
+    margin: 0;
+}
+
+.card .details {
+    background-color: rgba(44, 64, 75, 1);
+    padding: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .details p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: "Roboto";
+}
+
+.card .details button {
+    border-radius: 3px;
+    padding: 8px 8px;
+    border: 1px solid white;
+    background: none;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-family: "Roboto";
+    color: white;
+}
+
+@media (max-width:768px) {
+    .card {
+        width: 18rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
+    .card {
+        width: 95%;
+    }
+}

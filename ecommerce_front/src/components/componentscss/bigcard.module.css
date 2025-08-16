@@ -1,0 +1,53 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+ .card {
+     width: 35rem;
+     display: flex;
+     margin: 10px;
+     height: 14rem;
+     flex: 0 0 auto;
+ }
+
+ .card .left {
+     width: 50%;
+     padding: 14px 8px;
+ }
+
+ .card .left h2,
+ p {
+     color: white;
+     text-align: left;
+     margin: 10px 0px;
+     font-family: "Roboto";
+ }
+
+ .card .left p {
+     color: white;
+     text-align: left;
+     margin: 10px 0px;
+     font-family: "Roboto";
+ }
+
+ .card .left span {
+     text-align: left;
+     color: rgb(225, 223, 223);
+     font-family: "Roboto";
+     text-decoration: underline;
+ }
+
+ .card .right {
+     width: 60%;
+ }
+
+ .card .right img {
+     width: 100%;
+     height: 14rem;
+ }
+
+ @media (max-width:768px) {
+     .card {
+         width: 100%;
+     }
+ }

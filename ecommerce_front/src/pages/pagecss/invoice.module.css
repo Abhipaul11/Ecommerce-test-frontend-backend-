@@ -1,0 +1,96 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    padding: 30px 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.container .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .top .left p {
+    color: black;
+
+}
+
+.tablecontainer {
+    margin: 20px 0;
+}
+
+thead tr {
+    background-color: black;
+}
+
+.invoiceTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+.invoiceTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.invoiceTable td {
+    padding: 8px 20px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.invoiceTable .td2 {
+    border-bottom: none;
+    border-top: none;
+    text-align: right;
+}
+
+.invoiceTable th {
+    background-color: rgb(64, 64, 66);
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.totalAmount {
+    color: red;
+    font-weight: bold;
+    border: none;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 3rem;
+}
+
+.bottom .left p {
+    color: black;
+}
+
+.bottom .right button {
+    color: black;
+    width: 70px;
+    border-radius: 0px;
+    border: 1px solid grey;
+}
+
+.bottom .right button:hover {
+    background-color: rgb(229, 214, 214);
+}
+
+@media(max-width:768px) {
+    .container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 8px;
+    background-color: rgba(38, 38, 38, 1);
+    flex-wrap: wrap;
+    position: relative;
+}
+
+header h3 {
+    color: black;
+    margin: 0;
+    color: rgb(212, 209, 209);
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+/* .categorybox {
+    display: none;
+} */
+
+.categorybox {
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    padding: 15px;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    display: none;
+}
+
+/* .heading:hover .categorybox{
+    background-color: white;
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    padding: 15px;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%; 
+} */
+.menus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 70%;
+}
+
+.categorymenu {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.categorymenu h3 {
+    color: black;
+    margin: 0;
+}
+
+.pic img {
+    height: 19rem;
+    width: 17rem;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    list-style-type: none;
+    align-items: center;
+}
+
+header ul .link {
+    color: rgb(212, 209, 209);
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.clink {
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto";
+}
+
+.closecategory {
+    display: none;
+}
+
+button {
+    margin: 0;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:821px) {
+    .menus {
+        width: fit-content;
+    }
+
+    .pic {
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .categorybox {
+        width: 95%;
+        height: 100vh;
+    }
+
+    .menus {
+        margin-top: 2rem;
+
+    }
+
+    .closecategory {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 10px 20px;
+        gap: 90px;
+    }
+
+    .closecategory h3,
+    span {
+        color: rgb(67, 65, 65);
+        font-family: "Roboto";
+    }
+}
