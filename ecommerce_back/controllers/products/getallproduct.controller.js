@@ -79,3 +79,4 @@ const getAllproduct = async (req, res) => {
     }
 };
 module.exports = getAllproduct;
+
